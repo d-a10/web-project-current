@@ -9,20 +9,20 @@ You run it by:<br>
 <br>
 This project implements:<br>
 RESTFUL API<br>
-<tab> -post, get, patch, delete<br>
-<tab> -validation using express-validator<br>
-<tab> -JSON parsing and error messages<br>
+&nbsp; -post, get, patch, delete<br>
+&nbsp; -validation using express-validator<br>
+&nbsp; -JSON parsing and error messages<br>
 Login/logout with Passport.js<br>
 Password encryption<br>
 Session storing in db<br>
 Javscript<br>
-<tab>  -popups<br>
-<tab>  -accessing data from a public api to populate fields<br>
-<tab>  -animating content a bit<br>
+&nbsp;  -popups<br>
+&nbsp;  -accessing data from a public api to populate fields<br>
+&nbsp;  -animating content a bit<br>
 Templating (using ejs)<br>
-<tab>  -passing in parameters<br>
-<tab>  -script in the templates<br>
-<tab>  -accessing global variables to display warning and success messages<br>
+&nbsp;  -passing in parameters<br>
+&nbsp;  -script in the templates<br>
+&nbsp;  -accessing global variables to display warning and success messages<br>
 Routing<br>
 <br>
 Nodejs - Expressjs<br>
