@@ -4,14 +4,14 @@
 //}
 
 
-var accordion = document.getElementsByClassName("accordion");
-var i;
+const accordion = document.getElementsByClassName("accordion");
+let i;
 //This creates the accordion slide functionality
 if (accordion){    
   for(i = 0; i < accordion.length; i++){
       accordion[i].addEventListener("click", function(){
           this.classList.toggle("active");
-          var panel = this.nextElementSibling;
+          const panel = this.nextElementSibling;
           if (panel.style.maxHeight){
               panel.style.maxHeight = null;
           }else{
@@ -20,8 +20,8 @@ if (accordion){
       } )
   }
 }
-var modal = document.getElementById('login-modal');
-var signupModal = document.getElementById('signup-modal');
+const modal = document.getElementById('login-modal');
+const signupModal = document.getElementById('signup-modal');
 window.onclick = function (event){
     if (event.target === modal) {
         modal.style.display = "none";
@@ -30,18 +30,18 @@ window.onclick = function (event){
     }
 }
 
-var xhr = new XMLHttpRequest();//This is to receive the top headlines from the news api
-var url = "https://newsapi.org/v2/top-headlines?country=us&apiKey=c7300b18871b4ea682b0bd663f547e84";
-var newsElement = document.getElementById('side-block');
+const xhr = new XMLHttpRequest();//This is to receive the top headlines from the news api
+const url = "https://newsapi.org/v2/top-headlines?country=us&apiKey=d00cf7de0e6b42b48c3f2a6d64d7acbc";
+const newsElement = document.getElementById('side-block');
 
 if (newsElement){
     xhr.open('GET', url, true);
     xhr.onload = function(){
         if(this.status == 200){
-            var headlines = JSON.parse(this.responseText);
+            const headlines = JSON.parse(this.responseText);
             console.log(headlines);
-            var output = '';
-            var count = 0;
+            let output = '';
+            let count = 0;
             output += '<h2>Top Headlines</h2>';
             for(count; count<5 ; count++){
                 output +=
@@ -63,7 +63,12 @@ if (newsElement){
     xhr.send();
 }
 
-  
+//let messageElements = document.getElementsByClassName('success-msg error-msg');
+//if (messageElements) {
+//  console.log('messageEl:' + messageElements.innerHTML);
+//  messageElements.display = 'none';
+//}
+
   //c7300b18871b4ea682b0bd663f547e84
 
 

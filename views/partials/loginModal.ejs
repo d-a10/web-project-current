@@ -1,0 +1,17 @@
+<div id="login-modal">
+  <div class="modal-content-login">
+    <span id="signup-close-button" class="close" onclick="document.getElementById('login-modal').style.display='none'">&times;</span>
+    <h3><b>Log In</b> </h3>
+    <hr>
+    <form class="signup-form" action="/users/login" method="post">
+      <label><b>Email</b></label>
+      <input type="email" placeholder="Email Address" name="email" required>
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Password" name="password" required>
+      <label>
+            <input type=checkbox checked="checked" class="remember-me-checkbox">
+            Remember Me</label>
+      <button type="submit" class="loginbtn green">Log In</button>
+    </form>
+  </div>
+</div>

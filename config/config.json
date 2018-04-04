@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "site-admin",
+    "password": 123456,
+    "database": "blogging_schema",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "site-admin",
+    "password": 123456,
+    "database": "blogging_schema",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "site-admin",
+    "password": 123456,
+    "database": "blogging_schema",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}

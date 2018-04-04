@@ -25,8 +25,11 @@ router.get('/about.html', function (req, res, next) {
   res.render('about', {
     title: 'About'
   });
-  
 });
+
+
+
+
 
 //router.post('/submit', function (req, res, next) {
 //  //check validity

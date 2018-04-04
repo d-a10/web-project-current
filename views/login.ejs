@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head> 
+<link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+<div id="login-page">
+  <div class="modal-content-login">
+    <%if (typeof success_msg != 'undefined'){%>
+      <div class="success-msg"><%=success_msg%></div>
+    <%}%>
+    <%if (typeof error_msg != 'undefined'){%>
+      <div class="error-msg"><%=error_msg%></div>
+    <%}%>
+    <%if (typeof error != 'undefined'){%>
+      <div class="error-msg"><%=error%></div>
+    <%}%>  
+    <%if (typeof errors != 'undefined') {%>
+       <div class="error-msg"><%=errors %></div>
+    <%}%>
+    <h3><b>Log In</b> </h3>
+    <hr>
+    <form class="signup-form" action="/users/login" method="post">
+      <label><b>Email</b></label>
+      <input type="email" placeholder="Email Address" name="email" required>
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Password" name="password" required>
+      <label>
+            <input type=checkbox checked="checked" class="remember-me-checkbox">
+            Remember Me</label>
+      <button type="submit" class="loginbtn green">Log In</button>
+    </form>
+  </div>
+</div>
+
+</body>

@@ -1,0 +1,52 @@
+<div id="signup-modal">
+  <div class="modal-content">
+    <span id="signup-close-button" class="close" onclick="document.getElementById('signup-modal').style.display='none'">&times;</span>
+    <h3><b>Sign Up for ThisWebsite</b> </h3>
+    <hr>
+    <form class="signup-form" action="/users" method="post">
+      <div class="grid-container-signup">
+        <div class="signup-form-labels">
+          <div class="signup-label-container">
+            <label><b>First Name</b></label>
+          </div>
+          <div class="signup-label-container">
+            <label><b>Last Name</b></label>
+          </div>
+          <div class="signup-label-container">
+            <label><b>Username</b></label>
+          </div>
+          <div class="signup-label-container">
+            <label><b>Email</b></label>
+          </div>
+          <div class="signup-label-container">
+            <label><b>Password</b></label>
+          </div>
+        </div>
+
+        <div class="signup-fields">
+          <input type="text" placeholder="First Name" name="fName" required>
+          <input type="text" placeholder="Last Name" name="lName" required>
+          <input type="text" placeholder="Username" name="handle" required>
+          <input type="email" placeholder="Enter Email" name="email" required>
+          <input type="password" placeholder="Enter Password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+          <input type="password" placeholder="Confirm Password" name="password_confirm" required>
+        </div>
+      </div>
+      <span>Password must contain:</span>
+      <ul>
+        <li>one uppercase character</li>
+        <li>one lowercase character</li>
+        <li>one number</li>
+        <li>and be at least 8 characters long</li>
+      </ul>
+
+
+      <p class="wide-text">By creating and account you agree to our <a href="">Terms & Privacy</a></p>
+
+      <button type="button" class="cancelbtn firebrick" onclick="document.getElementById('signup-modal').style.display='none'">Cancel</button>
+      <button type="submit" class="signupbtn green">Sign Up</button>
+      <br>
+
+    </form>
+  </div>
+</div>
