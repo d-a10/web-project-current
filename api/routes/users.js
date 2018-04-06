@@ -66,7 +66,7 @@ router.get('/logout', function(req, res){
 });
 
 router.get('/', (req, res, next) => {
-  let sql = `SELECT * FROM users ORDER BY user_id;`;
+  let sql = `SELECT user_id, first_name, last_name, handle FROM users ORDER BY user_id;`;
   let query = db.query(sql, (err, users) => {
     if (err) {
       console.error('SQL error: ', err);
