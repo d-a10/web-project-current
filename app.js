@@ -17,7 +17,7 @@ const commentRoutes = require('./api/routes/comments');
 const friendFollowersListRoutes = require('./api/routes/friendFollowerList');
 const flash = require('req-flash');
 const db = require('./db.js');
-
+var MySQLStore = require('express-mysql-session')(expressSession);
 
 const app = express();
 
@@ -79,9 +79,22 @@ app.use(expressValidator(/*{
 app.use(cookieParser());
 //Set Static Folder
 app.use(express.static(path.join(__dirname, 'public')));
+
+let options = {
+    host: 'localhost',
+    port: 3306,
+    user: 'site_admin',
+    password: '123456',
+    database: 'blogging_schema'
+};
+
+var sessionStore = new MySQLStore(options);
+
 //Express Session
 app.use(expressSession({
+  key: 'session-cookie-name',
   secret: 'anything',
+  store: sessionStore,
   saveUninitialized: true,
   resave: true
 }));
