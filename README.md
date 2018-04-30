@@ -23,11 +23,12 @@ This project implements:
 </li><li>accessing data from a public api to populate fields
 </li><li>animating content a bit</li>
 </ul>
-<br><b>Templating (using ejs)</b>
-<br>passing in parameters
-<ul> <li>script in the templates</li>
+<b>Templating (using ejs)</b>
+<ul> 
+  <li>passing in parameters</li>
+  <li>script in the templates</li>
   <li>accessing global variables to display warning and success messages</li><ul>
-<br><b>Routing</b>
+<b>Routing</b>
 <br>
 <br>
 <b>
