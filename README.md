@@ -8,22 +8,22 @@ You run it by:<br>
 3.  localhost/3000<br>
 <br>
 This project implements:
-<br>RESTFUL API 
-<br>     * post, get, patch, delete 
-<br>     * validation using express-validator
-<br>     * JSON parsing and error messages
-<br>Login/logout with Passport.js
+<br>**RESTFUL API**
+<br>     - post, get, patch, delete 
+<br>     - validation using express-validator
+<br>     - JSON parsing and error messages
+<br>**Login/logout with Passport.js
 <br>Password encryption
 <br>Session storing in db
-<br>Javscript
-<br>     * popups
-<br>     * accessing data from a public api to populate fields
-<br>     * animating content a bit
-<br>Templating (using ejs)
-<br>     * passing in parameters
-<br>     * script in the templates
-<br>     * accessing global variables to display warning and success messages
-<br>Routing
+<br>Javscript**
+<br>     - popups
+<br>     - accessing data from a public api to populate fields
+<br>     - animating content a bit
+<br>**Templating (using ejs)**
+<br>     - passing in parameters
+<br>     - script in the templates
+<br>     - accessing global variables to display warning and success messages
+<br>**Routing**
 <br>
 <br>
 <b>
