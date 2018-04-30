@@ -9,9 +9,11 @@ You run it by:<br>
 <br>
 This project implements:
 <br><b>RESTFUL API</b>
+
 <ul> <li>post, get, patch, delete </li>
 <li>validation using express-validator</li>
-<li>JSON parsing and error messages</li><ul>
+<li>JSON parsing and error messages</li></ul>
+
 <br><b>Login/logout with Passport.js
 <br>Password encryption
 <br>Session storing in db
