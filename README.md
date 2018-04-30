@@ -14,7 +14,7 @@ This project implements:
 <li>validation using express-validator</li>
 <li>JSON parsing and error messages</li></ul>
 
-<br><b>Login/logout with Passport.js
+<b>Login/logout with Passport.js
 <br>Password encryption
 <br>Session storing in db
 <br>Javscript</b>
@@ -27,7 +27,7 @@ This project implements:
 <ul> 
   <li>passing in parameters</li>
   <li>script in the templates</li>
-  <li>accessing global variables to display warning and success messages</li><ul>
+  <li>accessing global variables to display warning and success messages</li></ul>
 <b>Routing</b>
 <br>
 <br>
