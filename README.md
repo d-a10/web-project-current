@@ -16,11 +16,13 @@ This project implements:
 <br>Password encryption
 <br>Session storing in db
 <br>Javscript</b>
-  <br>     - popups
-  <br>- accessing data from a public api to populate fields
-<br>     - animating content a bit
+<ul>
+<li>popups
+</li><li>accessing data from a public api to populate fields
+</li><li>animating content a bit</li>
+</ul>
 <br><b>Templating (using ejs)</b>
-<br>     - passing in parameters
+<ui> passing in parameters
 <br>     - script in the templates
 <br>     - accessing global variables to display warning and success messages
 <br><b>Routing</b>
