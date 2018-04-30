@@ -16,8 +16,8 @@ This project implements:
 <br>Password encryption
 <br>Session storing in db
 <br>Javscript</b>
-<br>     - popups
-<br>     - accessing data from a public api to populate fields
+  <br>     - popups
+  <br>- accessing data from a public api to populate fields
 <br>     - animating content a bit
 <br><b>Templating (using ejs)</b>
 <br>     - passing in parameters
