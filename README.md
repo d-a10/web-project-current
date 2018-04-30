@@ -8,11 +8,11 @@ You run it by:<br>
 3.  localhost/3000<br>
 <br>
 This project implements:
-- RESTFUL API 
+  - RESTFUL API 
      * post, get, patch, delete 
      * validation using express-validator
      * JSON parsing and error messages
-+ Login/logout with Passport.js
++    Login/logout with Passport.js
 + Password encryption
 + Session storing in db
 + Javscript
