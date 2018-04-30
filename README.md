@@ -25,8 +25,10 @@ This project implements:
 <br>     * accessing global variables to display warning and success messages
 <br>Routing
 <br>
+<br>
+<b>
 Nodejs - Expressjs<br>
 Mysql/MariaDB<br>
 CSS Grid<br>
 ES6
- 
+</b>
