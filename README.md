@@ -9,9 +9,9 @@ You run it by:<br>
 <br>
 This project implements:
 <br><b>RESTFUL API</b>
-<br>     - post, get, patch, delete 
-<br>     - validation using express-validator
-<br>     - JSON parsing and error messages
+<ul> <li>post, get, patch, delete </li>
+<li>validation using express-validator</li>
+<li>JSON parsing and error messages</li><ul>
 <br><b>Login/logout with Passport.js
 <br>Password encryption
 <br>Session storing in db
@@ -22,9 +22,9 @@ This project implements:
 </li><li>animating content a bit</li>
 </ul>
 <br><b>Templating (using ejs)</b>
-<ui> passing in parameters
-<br>     - script in the templates
-<br>     - accessing global variables to display warning and success messages
+<br>passing in parameters
+<ul> <li>script in the templates</li>
+  <li>accessing global variables to display warning and success messages</li><ul>
 <br><b>Routing</b>
 <br>
 <br>
