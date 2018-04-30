@@ -17,6 +17,7 @@ This project implements:
 <b>Login/logout with Passport.js
 <br>Password encryption
 <br>Session storing in db
+<b>Routing</b>
 <br>Javscript</b>
 <ul>
 <li>popups
@@ -28,7 +29,6 @@ This project implements:
   <li>passing in parameters</li>
   <li>script in the templates</li>
   <li>accessing global variables to display warning and success messages</li></ul>
-<b>Routing</b>
 <br>
 <br>
 <b>
